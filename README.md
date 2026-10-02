@@ -18,13 +18,13 @@ I'm not a traditional software engineer, and I don't pretend to be. I work like 
 | **[Coral](https://github.com/perry-is/coral-portfolio)** | A private AI layer that decides what each model is allowed to see, refuses rather than leaking, and keeps receipts of every decision. Optional local model via Ollama. | Public slice of a personal system I'm building |
 | **[AI Bookkeeping Workflow](https://github.com/perry-is/ai-bookkeeping-workflow)** | Plain-English bookkeeping rules turned into enforced logic. AI may *suggest* a category, but suggestions always go to human review and never touch the totals. | Built from my own business's bookkeeping procedure |
 | **[AI Content Operations](https://github.com/perry-is/ai-content-operations-pipeline)** | One podcast episode in, six publishing outputs out, with rules that stop AI from inventing exercises or links. | Modeled on the system I use for my podcast and workshops |
-| **[Coral Forge](https://github.com/perry-is/coral-forge)** | A bounded loop for AI coding agents: allow-listed actions, tests as the judge, hard retry limit. | Teaching demo |
+| **[Coral Forge](https://github.com/perry-is/coral-forge)** | A bounded loop for AI coding agents: allow-listed actions, tests as the judge, hard retry limit. | Experimental demonstration |
 
 All public repos use fictional data. The real versions hold personal, client, or business information, which doesn't belong on GitHub.
 
 ## What ties it together
 
-**Model output is not a business fact.** AI can propose a record, a category, or a draft. Something only becomes official after it passes rules a person can read and, where it matters, a person approves it. Every project here follows that rule in a different setting.
+**Model output is not a business fact.** AI can propose a record, a category, or a draft. In every project here, that proposal either has to pass rules a person can read or waits in a queue for a person, and none of it becomes official on its own.
 
 ## Background
 
