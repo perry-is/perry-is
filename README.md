@@ -14,6 +14,7 @@ I'm not a traditional software engineer, and I don't pretend to be. I work like 
 
 | Project | What it shows | Status |
 |---|---|---|
+| **[Operations Forecasting](https://github.com/perry-is/operations-forecasting-system)** | Excel in, planning workbook out: inventory forecasts and reorder recommendations. It withholds numbers when the data is bad, and old forecasts can't be rewritten after the fact. | Rebuilt from a tool I built and used in my logistics job |
 | **[Coral](https://github.com/perry-is/coral-portfolio)** | A private AI layer that decides what each model is allowed to see, refuses rather than leaking, and keeps receipts of every decision. Optional local model via Ollama. | Public slice of a personal system I'm building |
 | **[AI Bookkeeping Workflow](https://github.com/perry-is/ai-bookkeeping-workflow)** | Plain-English bookkeeping rules turned into enforced logic. AI may *suggest* a category, but suggestions always go to human review and never touch the totals. | Built from my own business's bookkeeping procedure |
 | **[AI Content Operations](https://github.com/perry-is/ai-content-operations-pipeline)** | One podcast episode in, six publishing outputs out, with rules that stop AI from inventing exercises or links. | Modeled on the system I use for my podcast and workshops |
@@ -32,6 +33,6 @@ All public repos use fictional data. The real versions hold personal, client, or
 - A.A. in Psychology
 - Facilitator and teacher: workshops on leadership, communication, and change
 
-**Tools I work with:** Python · SQLite · Git and GitHub Actions · Ollama and local LLMs · OpenAI and Anthropic models · Claude Code and Codex · Home Assistant · Excel
+**Tools I work with:** Python · SQLite · Git and GitHub Actions · Ollama and local LLMs · OpenAI and Anthropic models · Claude Code and Codex · Excel and openpyxl · Home Assistant
 
 **Website:** [perry.is](https://perry.is)
