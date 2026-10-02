@@ -1,38 +1,38 @@
 # Michael Perry
 
-**Operations + AI Workflow Systems**
+**Operations leader who builds AI workflows that people can actually trust.**
 
-I design practical systems that turn messy human processes into bounded, testable, and auditable workflows.
+I've spent over a decade in manufacturing operations: first in clean-room medical device packaging at DePuy Synthes (Johnson & Johnson), and since 2020 as Director of Logistics at a custom manufacturer, where I was one of three people who rebuilt operations from the ground up after the entire management team left at once. I designed the BOM and traveler system that tracks every build step with built-in quality checks, and it **cut errors by 40%.** I also built the serial-number system, the location tracking for roughly 3,000 warehouse parts, and the QC, safety, and RMA processes.
 
-My work sits at the intersection of operations, AI orchestration, workflow design, knowledge systems, and process improvement. I’m especially interested in systems where AI assists human judgment rather than hiding it.
+That work taught me to ask a few questions of any process: *What's the source of truth? What needs human judgment? What happens when information is uncertain? Can we reconstruct what happened?* I now ask the same questions about AI.
 
-## Selected Projects
+## How I work
 
-These portfolio prototypes make workflow decisions, constraints, and review points visible through small, inspectable implementations.
+I'm not a traditional software engineer, and I don't pretend to be. I work like a technical lead: I map the process, define the rules and boundaries, write the specification and tests, and direct AI coding agents to build it. Then I have a *second* model review the work, because the one who built it shouldn't be the one who signs off on it.
 
-### [Coral](https://github.com/perry-is/coral-portfolio)
+## Projects
 
-Local-first AI orchestration prototype demonstrating durable memory, bounded context, privacy-aware model routing, and auditable operation receipts.
+| Project | What it shows | Status |
+|---|---|---|
+| **[Operations Forecasting](https://github.com/perry-is/operations-forecasting-system)** | Excel in, planning workbook out: inventory forecasts and reorder recommendations. It withholds numbers when the data is bad, and old forecasts can't be rewritten after the fact. | Rebuilt from a tool I built and used in my logistics job |
+| **[Coral](https://github.com/perry-is/coral-portfolio)** | A private AI layer that decides what each model is allowed to see, refuses rather than leaking, and keeps receipts of every decision. Optional local model via Ollama. | Public slice of a personal system I'm building |
+| **[AI Bookkeeping Workflow](https://github.com/perry-is/ai-bookkeeping-workflow)** | Plain-English bookkeeping rules turned into enforced logic. AI may *suggest* a category, but suggestions always go to human review and never touch the totals. | Built from my own business's bookkeeping procedure |
+| **[AI Content Operations](https://github.com/perry-is/ai-content-operations-pipeline)** | One podcast episode in, six publishing outputs out, with rules that stop AI from inventing exercises or links. | Modeled on the system I use for my podcast and workshops |
+| **[Coral Forge](https://github.com/perry-is/coral-forge)** | A bounded loop for AI coding agents: allow-listed actions, tests as the judge, hard retry limit. | Experimental demonstration |
 
-### [Coral Forge](https://github.com/perry-is/coral-forge)
+All public repos use fictional data. The real versions hold personal, client, or business information, which doesn't belong on GitHub.
 
-Agentic software workflow prototype demonstrating constrained execution, test-based evaluation, bounded retries, diffs, and durable receipts.
+## What ties it together
 
-### [AI Bookkeeping Workflow](https://github.com/perry-is/ai-bookkeeping-workflow)
+**Model output is not a business fact.** AI can propose a record, a category, or a draft. In every project here, that proposal either has to pass rules a person can read or waits in a queue for a person, and none of it becomes official on its own.
 
-Translates natural-language bookkeeping rules into deterministic classification, reconciliation, human-review flags, and auditable monthly reporting.
+## Background
 
-### [AI Content Operations Pipeline](https://github.com/perry-is/ai-content-operations-pipeline)
+- Director of Logistics, custom manufacturing (2020–present): inventory, purchasing, QC, travelers, BOMs, supplier relations
+- Senior Packager, DePuy Synthes / Johnson & Johnson (2011–2017): ISO clean room, SAP
+- A.A. in Psychology
+- Facilitator and teacher: workshops on leadership, communication, and change
 
-Transforms long-form source material into purpose-specific audience resources, publishing assets, structured metadata, and validation, with an architecture for future search and recommendations.
+**Tools I work with:** Python · SQLite · Git and GitHub Actions · Ollama and local LLMs · OpenAI and Anthropic models · Claude Code and Codex · Excel and openpyxl · Home Assistant
 
-## How I Approach AI Systems
-
-- Keep human judgment visible and represent uncertainty explicitly.
-- Give automation clear boundaries and make outputs inspectable and testable.
-- Minimize sensitive context throughout the workflow.
-- Solve actual operational problems with only the complexity they need.
-
-## Elsewhere
-
-[Website — perry.is](https://perry.is)
+**Website:** [perry.is](https://perry.is)
