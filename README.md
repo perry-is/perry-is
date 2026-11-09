@@ -10,7 +10,16 @@ That work taught me to ask a few questions of any process: *What's the source of
 
 I'm not a traditional software engineer, and I don't pretend to be. I work like a technical lead: I map the process, define the rules and boundaries, write the specification and tests, and direct AI coding agents to build it. Then I have a *second* model review the work, because the one who built it shouldn't be the one who signs off on it.
 
-## Projects
+## Apps
+
+| | |
+|---|---|
+| **[CampaignKit](https://github.com/perry-is/campaign-kit)** · Mac app<br>Paste an event and get checked facts, posts for every platform, and three AI-designed flyers in the client's own style, learned from their past flyers. Every flyer is fact-checked, and nothing publishes until a person approves it. One app serves many businesses: a client's logo re-themes the whole interface.<br>*Electron · React · TypeScript · OpenAI image and text models.* Desktop rebuild of my [AI Event Marketing Platform](https://github.com/perry-is/ai-event-marketing-platform) (FastAPI · PostgreSQL · React). | <a href="https://github.com/perry-is/campaign-kit"><img src="https://github.com/perry-is/campaign-kit/raw/main/docs/ai-flyers/copper-kettle-croissant-3.jpg" width="220" alt="AI-designed flyer from CampaignKit"></a> |
+| **[Show Stand](https://github.com/perry-is/show-stand)** · iPhone and iPad<br>Turns a device into a branded booth display for vendors at markets and pop-ups, with offline lead capture. Zero network calls, no accounts, and the lead list locks behind Face ID.<br>*SwiftUI · SwiftData.* | <a href="https://github.com/perry-is/show-stand"><img src="https://github.com/perry-is/show-stand/raw/main/docs/images/cover.png" width="220" alt="Show Stand"></a> |
+| **[Meridian: Three Fronts](https://github.com/perry-is/Meridian)** · iPhone and Mac game<br>An original isometric sci-fi strategy game: three asymmetric factions, a computer opponent that scouts, expands and counters, and an art pipeline that turns AI-made 3D models into animated sprites. About 20,000 lines of Swift with a tested, deterministic simulation core.<br>*Swift · SpriteKit · Blender Python · Tripo.* | <a href="https://github.com/perry-is/Meridian"><img src="https://github.com/perry-is/Meridian/raw/main/docs/showcase/battle_lattice_brood.jpg" width="220" alt="Meridian battle"></a> |
+| **Voice Studio** · Mac app (private)<br>Design custom AI voices, test them by talking and chatting with local models, and serve both speech and chat through an OpenAI-compatible API my other projects call, all running privately on my Mac. Speak to it and local Whisper transcribes you; pick any Ollama model, give it its own personality and settings, and hear replies in a custom voice with response times shown. Works from my phone over a private Tailscale network.<br>*Python · MLX on Apple Silicon · Whisper · Ollama · FastAPI · SwiftUI.* Next: on-device iPhone mic testing. | |
+
+## AI workflow projects
 
 | Project | What it shows | Status |
 |---|---|---|
@@ -33,6 +42,6 @@ All public repos use fictional data. The real versions hold personal, client, or
 - A.A. in Psychology
 - Facilitator and teacher: workshops on leadership, communication, and change
 
-**Tools I work with:** Python · SQLite · Git and GitHub Actions · Ollama and local LLMs · OpenAI and Anthropic models · Claude Code and Codex · Excel and openpyxl · Home Assistant
+**Tools I work with:** Python · Swift and SwiftUI · TypeScript, React and Electron · SQLite · Git and GitHub Actions · Ollama and local LLMs · OpenAI and Anthropic models · Claude Code and Codex · Excel and openpyxl · Home Assistant
 
 **Website:** [perry.is](https://perry.is)
