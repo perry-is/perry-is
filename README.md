@@ -1,14 +1,21 @@
 # Michael Perry
 
-**Operations leader who builds AI workflows that people can actually trust.**
+**Operations leadership · AI implementation · Workflow transformation**
 
-I've spent over a decade in manufacturing operations: first in clean-room medical device packaging at DePuy Synthes (Johnson & Johnson), and since 2020 as Director of Logistics at a custom manufacturer, where I was one of three people who rebuilt operations from the ground up after the entire management team left at once. I designed the BOM and traveler system that tracks every build step with built-in quality checks, and it **cut errors by 40%.** I also built the serial-number system, the location tracking for roughly 3,000 warehouse parts, and the QC, safety, and RMA processes.
+I turn messy, people-dependent processes into systems that are clearer, more reliable, and easier to scale. My background is in manufacturing and logistics leadership; my recent work brings that same operational discipline to AI-assisted workflows and practical software.
 
-That work taught me to ask a few questions of any process: *What's the source of truth? What needs human judgment? What happens when information is uncertain? Can we reconstruct what happened?* I now ask the same questions about AI.
+**Proof from the floor:** As Director of Logistics at a custom manufacturer, I helped rebuild operations after a management-team departure. I designed a bill-of-materials (BOM) and production-traveler process with built-in quality checks that **reduced errors by 40%**, plus systems for serial-number traceability, approximately 3,000 warehouse parts, quality control, safety, and returns. Before that, I worked in clean-room medical device packaging at DePuy Synthes (Johnson & Johnson).
 
-## How I work
+**What I bring to a team:**
+- **Operational diagnosis:** Find bottlenecks, unclear ownership, unreliable data, and the real causes of recurring errors.
+- **AI and workflow implementation:** Translate business needs into specifications, guardrails, review steps, and usable tools, not just impressive demos.
+- **People and adoption:** Connect system design with training, facilitation, and the way people actually work.
 
-I'm not a traditional software engineer, and I don't pretend to be. I work like a technical lead: I map the process, define the rules and boundaries, write the specification and tests, and direct AI coding agents to build it. Then I have a *second* model review the work, because the one who built it shouldn't be the one who signs off on it.
+## How I build
+
+I lead from the process and product side, not by claiming to be a traditional software engineer. I map workflows, define requirements and acceptance criteria, direct AI coding agents, test outcomes, and use independent reviews to challenge the implementation. My default is simple: **models can propose; verified rules and accountable people decide.**
+
+Below are selected working applications and smaller, reproducible projects. Public examples use fictional or sanitized data; private business and personal records stay private.
 
 ## Apps
 
